@@ -1,7 +1,7 @@
 export default function PetItem({ name, type, age }) {
   return <div>
-    <p>{name}</p>
-    <p>{type}</p>
-    <p>{age}</p>
+    <p>This is my pet {name}</p>
+    <p>They are a {type}</p>
+    <p>They are {age} years old</p>
   </div>;
 }
