@@ -1,5 +1,4 @@
 export default function AnimalItem({ type, from, cute, danger }) {
-  console.log(danger);
   return <div> 
     <p>{type}</p>
     <p>{from}</p>

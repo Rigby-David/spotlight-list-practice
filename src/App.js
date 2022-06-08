@@ -10,10 +10,7 @@ import PetsList from './PetsList';
 import AnimalsList from './AnimalsList';
 import MoviesList from './MoviesList';
 
-console.log(pets);
-console.log(discs);
-console.log(animals);
-console.log(movies);
+
 function App() {
   return (
     <div className='parent-div'>
