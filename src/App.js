@@ -16,7 +16,7 @@ console.log(animals);
 console.log(movies);
 function App() {
   return (
-    <div>
+    <div className='parent-div'>
       <DiscsList discs={discs} />
       <hr />
       <PetsList pets={pets} />
