@@ -1,11 +1,16 @@
-import logo from './logo.svg';
 import './App.css';
 // import your arrays here
+import { discs } from './discs-data';
+import { pets } from './pets-data';
 
+import DiscsList from './DiscsList';
+
+console.log(pets);
+console.log(discs);
 function App() {
   return (
-    <div className="App">
-        Render all your lists here. Pass the arrays as props.
+    <div>
+      <DiscsList discs={discs}/>
     </div>
   );
 }
